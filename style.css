@@ -143,15 +143,21 @@ footer {
     color: white;
     display: block;
     text-align: center;
-    
-    
+
     
   }
   .logo {
     margin-bottom: 30px;
     margin-top: -25px;
+    
   }
  
- 
+main > article {
+  padding: 0;
+}
+
+section.hero > .call-to-action {
+  font-size: 1.25rem;
+}
 
 }
