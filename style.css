@@ -132,7 +132,7 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   header nav {
     display: block;
     
@@ -158,6 +158,14 @@ main > article {
 
 section.hero > .call-to-action {
   font-size: 1.25rem;
+}
+
+
+main > article > img {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  
 }
 
 }
