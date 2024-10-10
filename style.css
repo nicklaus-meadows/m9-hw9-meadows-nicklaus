@@ -132,7 +132,7 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   header nav {
     display: block;
     
@@ -168,4 +168,16 @@ main > article > img {
   
 }
 
+main > section, main > article {
+  margin-bottom: 1px;
+  box-shadow: 4px 4px 10px var(--gray);
+  background-color: var(--white);
+
+
+} 
+
+main p {
+  line-height: 1.75;
+  margin-bottom: 10px;;
+}
 }
